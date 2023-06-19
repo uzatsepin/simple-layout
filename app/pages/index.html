@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('head.html')
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header__nav">
+          <a href="#" class="header__logo">
+            <img src="images/logo.svg" alt="Logo">
+          </a>
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link active">Home</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Hotels</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Restaurants</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Tours</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Destinations</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Activities</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="header__user">
+            <div class="header__user-content">
+              <div class="header__user-content-greeting">
+                Hola,
+              </div>
+              <div class="header__user-content-name">Ales Nesetril</div>
+            </div>
+            <div class="header__user-avatar">
+              <img src="../images/user-img.webp" alt="UserImg">
+            </div>
+          </div>
+        </nav> 
+        <div class="header__info">
+          <h1 class="header__info-title">Discover the most engaging places</h1>
+          <button class="header__info-button">
+            <img src="../images/icon-global.svg" alt="global">
+            Discover on 3D Globe
+          </button>
+        </div>
+        <form action="#" class="header__form form">
+          <div class="form__input">
+            <label class="form__label" for="location">Location</label> <br>
+            <select class="form__select" name="" id="location">
+              <option value="all">Explore nearby destinations</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+              <option value="4">Option 4</option>
+              <option value="5">Option 5</option>
+            </select>
+          </div>
+          <button class="form__button">
+            search
+            <img src="../images/icon-search.svg" alt="Search">
+          </button>
+        </form>
+      </div>
+    </header>
+    <script src="js/custom-select.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
